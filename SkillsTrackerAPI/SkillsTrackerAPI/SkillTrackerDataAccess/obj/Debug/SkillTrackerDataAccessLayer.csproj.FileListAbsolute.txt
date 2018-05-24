@@ -1,0 +1,11 @@
+C:\MYDRIVE\HP-PC\LIJO\FSD\FinalProject\SkillsTrackerAPI\SkillsTrackerAPI\SkillTrackerDataAccess\bin\Debug\SkillTrackerDataAccess.dll.config
+C:\MYDRIVE\HP-PC\LIJO\FSD\FinalProject\SkillsTrackerAPI\SkillsTrackerAPI\SkillTrackerDataAccess\bin\Debug\SkillTrackerDataAccess.dll
+C:\MYDRIVE\HP-PC\LIJO\FSD\FinalProject\SkillsTrackerAPI\SkillsTrackerAPI\SkillTrackerDataAccess\bin\Debug\SkillTrackerDataAccess.pdb
+C:\MYDRIVE\HP-PC\LIJO\FSD\FinalProject\SkillsTrackerAPI\SkillsTrackerAPI\SkillTrackerDataAccess\bin\Debug\EntityFramework.dll
+C:\MYDRIVE\HP-PC\LIJO\FSD\FinalProject\SkillsTrackerAPI\SkillsTrackerAPI\SkillTrackerDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\MYDRIVE\HP-PC\LIJO\FSD\FinalProject\SkillsTrackerAPI\SkillsTrackerAPI\SkillTrackerDataAccess\bin\Debug\EntityFramework.xml
+C:\MYDRIVE\HP-PC\LIJO\FSD\FinalProject\SkillsTrackerAPI\SkillsTrackerAPI\SkillTrackerDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\MYDRIVE\HP-PC\LIJO\FSD\FinalProject\SkillsTrackerAPI\SkillsTrackerAPI\SkillTrackerDataAccess\obj\Debug\SkillTrackerDataAccessLayer.csprojResolveAssemblyReference.cache
+C:\MYDRIVE\HP-PC\LIJO\FSD\FinalProject\SkillsTrackerAPI\SkillsTrackerAPI\SkillTrackerDataAccess\obj\Debug\SkillTrackerDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\MYDRIVE\HP-PC\LIJO\FSD\FinalProject\SkillsTrackerAPI\SkillsTrackerAPI\SkillTrackerDataAccess\obj\Debug\SkillTrackerDataAccess.dll
+C:\MYDRIVE\HP-PC\LIJO\FSD\FinalProject\SkillsTrackerAPI\SkillsTrackerAPI\SkillTrackerDataAccess\obj\Debug\SkillTrackerDataAccess.pdb

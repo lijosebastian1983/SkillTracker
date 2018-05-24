@@ -1,0 +1,106 @@
+<div class="container">
+  <h1>Add New Employee Skills</h1>
+</div>
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="row">
+          <div class="col-4">
+            <label>Name</label>
+          </div>
+          <div class="col-3">
+            <input type="text" [(ngModel)]="associate.Name" name="" id="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <label>Associate ID</label>
+          </div>
+          <div class="col-3">
+            <input type="text" [(ngModel)]="associate.AssociateId" name="" id="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <label>Email</label>
+          </div>
+          <div class="col-3">
+            <input type="text" [(ngModel)]="associate.Email" name="" id="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <label>Mobile</label>
+          </div>
+          <div class="col-3">
+            <input type="text" [(ngModel)]="associate.Mobile" name="" id="">
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <textarea [(ngModel)]="associate.Pic" name="" id="input${1/(\w+)/\u\1/g}" class="form-control" rows="4"></textarea>
+      </div>
+      <div class="col-3">
+        <div>
+          <label>Remark</label>
+        </div>
+        <textarea name="" id="input${1/(\w+)/\u\1/g}" [(ngModel)]="associate.Remark" class="form-control" rows="3"></textarea>
+      </div>
+    </div>
+    <br>
+    <div *ngFor='let skill of associateSkills'>
+      <div class="row">
+          <div class="col-2">
+              <label>{{skill.SkillName}}</label>
+            </div>
+        <div class="col-2">
+          <input type="range" min="1" max="20" [(ngModel)]="skill.SkillRate">
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-2">
+        <label>Other</label>
+      </div>
+      <div class="col-2">
+        <input type="text" [(ngModel)]="associate.OtherSkills" name="" id="">
+      </div>
+      <div class="col-2">
+        <label>Strength</label>
+      </div>
+      <div class="col-2">
+        <input type="text" [(ngModel)]="associate.Strength" name="" id="">
+      </div>
+      <div class="col-2">
+        <label>Weekness</label>
+      </div>
+      <div class="col-2">
+        <input type="text" [(ngModel)]="associate.Weekness" name="" id="">
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-1">
+      {{message}}
+    </div>
+    </div>
+  <div class="row">
+    <div class="col-9"></div>
+    <div class="col-1">
+      <button type="submit" class="btn btn-primary" title="Reset">Reset</button>
+    </div>
+    <div class="col-1">
+      <button type="submit" class="btn btn-primary" title="Cancel">Cancel</button>
+    </div>
+
+    <div class="col-1">
+      <button type="submit" class="btn btn-primary" (click)='AddAssociateDetails()' title="Save">Save</button>
+    </div>
+    <div>
+    </div>
+  </div>
+
+</div>

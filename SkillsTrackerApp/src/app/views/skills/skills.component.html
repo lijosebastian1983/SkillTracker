@@ -1,0 +1,24 @@
+<div class="container">
+  <h1>Add Skills</h1>
+</div>
+<div class="jumbotron">
+  <div class="container">
+    <span class="label label-info">Add Skill:</span>
+    <input type="text" [(ngModel)]="skillsModel.SkillName">
+    <button type="button" (click)="AddSkills()" class="btn btn-default">Add</button>
+    <br>
+    <span class="label label-info">{{message}}</span>      
+  </div>
+</div>  
+  <div class="container">      
+<table class="table" style="width:300px;" *ngFor='let skill of skillsList'>
+    <tr>
+      
+      <td style="width:200px;">{{skill.SkillName}}</td>
+      <td><button>Edit</button></td>
+      <td><button>Delete</button></td></tr>
+  </table>
+  </div>
+
+
+
